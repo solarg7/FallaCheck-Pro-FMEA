@@ -1,17 +1,26 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "API RESTful para FallaCheck Pro. Sirve datos FMEA de válvulas.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "node",
+    "fmea",
+    "api"
+  ],
+  "author": "solarg7",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TU_USUARIO/FallaCheck-Pro.git" 
+  },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^4.19.2"
   }
 }

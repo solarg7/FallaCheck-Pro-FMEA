@@ -7,6 +7,32 @@ const PORT = 3000;
 // Datos de falla (simulando la respuesta de MongoDB)
 const fallasData = [
   // ... (Pegar el contenido del JSON del punto 1 aquí) ...
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "API RESTful para FallaCheck Pro. Sirve datos FMEA de válvulas.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "express",
+      "node",
+      "fmea",
+      "api"
+    ],
+    "author": "solarg7",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TU_USUARIO/FallaCheck-Pro.git" 
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.19.2"
+    }
+  }
 ];
 
 // Configuración de middlewares
